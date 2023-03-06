@@ -3,7 +3,7 @@ $host= $_ENV['db_host'];
 $user= $_ENV['db_user'];
 $pasword= $_ENV['db_pasword'];
 $dbname= $_ENV['db_dbname'];
-$port= $_ENV['db_host'];
+$port= $_ENV['db_port'];
 
 $conexion = new mysqli(
     $host,
