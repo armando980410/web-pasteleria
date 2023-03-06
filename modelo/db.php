@@ -1,16 +1,16 @@
 <?php
-$host= $_ENV['db_host'];
-$user= $_ENV['db_user'];
-$pasword= $_ENV['db_pasword'];
-$dbname= $_ENV['db_dbname'];
-$port= $_ENV['db_port'];
+$db_host= $_ENV['db_host'];
+$db_user= $_ENV['db_user'];
+$db_pasword= $_ENV['db_pasword'];
+$db_dbname= $_ENV['db_dbname'];
+$db_port= $_ENV['db_port'];
 
 $conexion = new mysqli(
-    $host,
-    $user,
-    $pasword,
-    $dbname,
-    $port
+    $db_host,
+    $db_user,
+    $db_pasword,
+    $db_dbname,
+    $db_port
 );
 $conexion->set_charset("utf8");
 
